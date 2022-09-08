@@ -1,0 +1,13 @@
+# VS
+obj/
+*.njsproj
+*.njsproj.user
+
+# Git
+.gitattributes
+
+# Babel
+.babelrc
+
+# ES6 Source
+src/

@@ -1,0 +1,27 @@
+{
+  "name": "@danielcbezerra/utils",
+  "version": "1.0.0",
+  "description": "JavaScript Utils",
+  "license": "MIT",
+  "author": "Daniel Bezerra",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCBezerra/javascript-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielCBezerra/javascript-utils/issues"
+  },
+  "homepage": "https://github.com/DanielCBezerra/javascript-utils#readme",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "prepublishOnly": "rimraf ./lib && babel src -d lib --ignore \"src/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "jest": "^27.2.5"
+  }
+}
